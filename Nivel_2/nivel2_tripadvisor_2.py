@@ -51,3 +51,5 @@ class Tripadvisor(CrawlSpider):
         #  "//div[@class = '_1nAmDotd'][1]//div[@class = '_2rdvbNSg0]/text()")
 
         yield item.load_item()
+
+
